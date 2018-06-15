@@ -1,6 +1,6 @@
 {
   "name": "get-dependents",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "build/index.js",
   "author": "Rogelio Guzman <rogelioguzmanh@gmail.com>",
   "description": "Find file dependencies",
@@ -33,10 +33,10 @@
     "yargs": "^11.0.0"
   },
   "devDependencies": {
-    "babel-jest": "21.0.0",
     "@babel/cli": "^7.0.0-beta.46",
     "@babel/core": "^7.0.0-beta.46",
     "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-jest": "21.0.0",
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "11.3.2",
     "eslint-config-prettier": "2.3.0",
