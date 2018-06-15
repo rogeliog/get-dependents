@@ -1,6 +1,6 @@
 {
   "name": "get-dependents",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "build/index.js",
   "author": "Rogelio Guzman <rogelioguzmanh@gmail.com>",
   "description": "Find file dependencies",
