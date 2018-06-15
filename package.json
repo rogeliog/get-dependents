@@ -11,10 +11,9 @@
   },
   "homepage": "https://github.com/rogeliog/get-dependents",
   "files": [
-    "watch.js",
     "build/"
   ],
-  "bin": "build/index",
+  "bin": "./build/index",
   "scripts": {
     "test": "",
     "lint": "eslint .",
