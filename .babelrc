@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "useBuiltIns": true,
+        "targets": {
+          "node": "4"
+        },
+        "exclude": [
+          "transform-regenerator"
+        ]
+      }
+    ]
+  ]
+}

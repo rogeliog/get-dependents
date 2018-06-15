@@ -1,0 +1,42 @@
+{
+  "name": "find-dependents",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "author": "Rogelio Guzman <rogelioguzmanh@gmail.com>",
+  "description": "Find file dependencies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogeliog/find-dependents.git"
+  },
+  "homepage": "https://github.com/rogeliog/find-dependents",
+  "files": [
+    "watch.js",
+    "build/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "watch": "babel src -w --ignore **/*.test.js,integration -d build",
+    "build": "babel src --ignore **/*.test.js,integration -d build",
+    "prepublish": "yarn build",
+    "format": "prettier --single-quote --trailing-comma all --write \"!(build)/**/*.js\""
+  },
+  "dependencies": {
+    "create-jest-runner": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-jest": "21.0.0",
+    "babel-preset-env": "1.6.0",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "11.3.2",
+    "eslint-config-prettier": "2.3.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jest": "20.0.3",
+    "eslint-plugin-prettier": "2.2.0",
+    "execa": "0.10.0",
+    "jest": "23.1.0",
+    "prettier": "1.13.5"
+  }
+}
