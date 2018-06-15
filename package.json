@@ -13,7 +13,7 @@
   "files": [
     "build/"
   ],
-  "bin": "./build/index",
+  "bin": "./build/index.js",
   "scripts": {
     "test": "",
     "lint": "eslint .",
