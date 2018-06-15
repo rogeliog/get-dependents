@@ -1,21 +1,22 @@
 {
-  "name": "find-dependents",
-  "version": "0.0.1",
+  "name": "get-dependents",
+  "version": "0.0.0",
   "main": "build/index.js",
   "author": "Rogelio Guzman <rogelioguzmanh@gmail.com>",
   "description": "Find file dependencies",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rogeliog/find-dependents.git"
+    "url": "https://github.com/rogeliog/get-dependents.git"
   },
-  "homepage": "https://github.com/rogeliog/find-dependents",
+  "homepage": "https://github.com/rogeliog/get-dependents",
   "files": [
     "watch.js",
     "build/"
   ],
+  "bin": "build/index",
   "scripts": {
-    "test": "jest",
+    "test": "",
     "lint": "eslint .",
     "watch": "babel src -w --ignore **/*.test.js,integration -d build",
     "build": "babel src --ignore **/*.test.js,integration -d build",
@@ -23,7 +24,14 @@
     "format": "prettier --single-quote --trailing-comma all --write \"!(build)/**/*.js\""
   },
   "dependencies": {
-    "create-jest-runner": "^0.4.0"
+    "jest-changed-files": "^23.0.1",
+    "jest-config": "^23.1.0",
+    "jest-haste-map": "^23.1.0",
+    "jest-resolve-dependencies": "^23.0.1",
+    "jest-runtime": "^23.1.0",
+    "jest-util": "^23.1.0",
+    "os": "^0.1.1",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

@@ -6,7 +6,7 @@
     Open terminal (e.g. Terminal, iTerm, Git Bash or Git Shell) and type:
 
     ```sh
-    git clone https://github.com/rogeliog/find-dependents
+    git clone https://github.com/rogeliog/get-dependents
     cd jest
     git checkout -b my_branch
     ```
@@ -14,7 +14,7 @@
     Note:
     Replace `<your_username>` with your GitHub username
 
-2.  find-dependents uses [Yarn](https://code.facebook.com/posts/1840075619545360)
+2.  get-dependents uses [Yarn](https://code.facebook.com/posts/1840075619545360)
     for running development scripts. If you haven't already done so,
     please [install yarn](https://yarnpkg.com/en/docs/install).
 
