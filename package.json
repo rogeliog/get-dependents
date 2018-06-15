@@ -11,9 +11,10 @@
   },
   "homepage": "https://github.com/rogeliog/get-dependents",
   "files": [
+    "bin",
     "build/"
   ],
-  "bin": "./build/index.sh",
+  "bin": "./bin/index.sh",
   "scripts": {
     "test": "",
     "lint": "eslint .",
